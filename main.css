@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#month {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+table tr th, table tr td {
+  text-align: center;
+  min-width: 10rem;
+  height: 10rem;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+
+table tr td:hover {
+  background-color: #EEE;
+}
